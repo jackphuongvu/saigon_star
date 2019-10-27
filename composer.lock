@@ -4,9 +4,65 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6ddd5dabb7a967b28bc590394953016b",
-    "content-hash": "6482637e0f4182cc531532d13482004e",
+    "hash": "a1a14d85097e41046ff3fc5b754cf0ca",
+    "content-hash": "b48ecfd740d74ae666716ffe815686c8",
     "packages": [
+        {
+            "name": "algolia/algoliasearch-client-php",
+            "version": "1.28.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/algoliasearch-client-php.git",
+                "reference": "c167ba3247b38b028fc05b1c58e8b5fb5e08d114"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/c167ba3247b38b028fc05b1c58e8b5fb5e08d114",
+                "reference": "c167ba3247b38b028fc05b1c58e8b5fb5e08d114",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-mbstring": "*",
+                "php": "^5.3 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "AlgoliaSearch": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Algolia Team",
+                    "email": "contact@algolia.com"
+                },
+                {
+                    "name": "Ryan T. Catlin",
+                    "email": "ryan.catlin@gmail.com"
+                },
+                {
+                    "name": "Jonathan H. Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Algolia Search API Client for PHP",
+            "homepage": "https://github.com/algolia/algoliasearch-client-php",
+            "time": "2018-11-06 10:48:00"
+        },
         {
             "name": "arrilot/laravel-widgets",
             "version": "3.13.0",
@@ -2788,61 +2844,6 @@
                 "voyager"
             ],
             "time": "2019-10-08 23:47:45"
-        },
-        {
-            "name": "pvtl/voyager-page-blocks",
-            "version": "0.8.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pvtl/voyager-page-blocks.git",
-                "reference": "956802c6dd1482389813cacfe7c6701ef8625390"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pvtl/voyager-page-blocks/zipball/956802c6dd1482389813cacfe7c6701ef8625390",
-                "reference": "956802c6dd1482389813cacfe7c6701ef8625390",
-                "shasum": ""
-            },
-            "require": {
-                "pvtl/voyager-frontend": "^0.9"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Pvtl\\VoyagerPageBlocks\\Providers\\PageBlocksServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "classmap": [],
-                "psr-4": {
-                    "Pvtl\\VoyagerPageBlocks\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pivotal Agency",
-                    "email": "tech@pivotalagency.com.au",
-                    "homepage": "http://pivotalagency.com.au"
-                }
-            ],
-            "description": "Ahoy! - A package to implement page blocks into Voyager",
-            "keywords": [
-                "blocks",
-                "frontend",
-                "laravel",
-                "page",
-                "voyager"
-            ],
-            "time": "2019-05-17 00:33:13"
         },
         {
             "name": "pvtl/voyager-pages",

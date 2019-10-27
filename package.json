@@ -24,6 +24,7 @@
         "sass-loader": "^7.1.0",
         "scrollreveal": "^4.0.5",
         "vue": "^2.5.17",
+        "vue-template-compiler": "^2.6.10",
         "what-input": "^5.2.6"
     }
 }

@@ -1,8 +1,7 @@
 @if($data)
     @php
         // need to recreate object because policy might depend on record data
-        $class = get_class($action);
-        dd($class);
+        $class = is_object($action) ? get_class($action) : $action;
         $action = new $class($dataType, $data);
     @endphp
     @can ($action->getPolicy(), $data)
