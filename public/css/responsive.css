@@ -1,0 +1,311 @@
+
+/*css side bar contact with admission*/
+
+.contentLandingWrap .title:after {
+    content: "";
+    display: block;
+    height: 44px;
+    width: 100%;
+    background: url(images/thumbnail/tearSprite.png) center -138px;
+    z-index: 2;
+    position: absolute;
+}
+.title div {
+    padding-left: 1.5em;
+}
+.pgadmision .banner_school_ad_top {
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.banner_school_ad_top_1 {
+    border-bottom-left-radius: 50px;
+    background: #4dc3cf;
+    height: 200px;
+    width: 100%;
+    padding-right: 20px;
+    position: relative;
+}
+.banner_school_ad_top_2 .cover_content p.name {
+    color: #008080;
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.contact_left .name {
+    text-align: left;
+    color: #008080;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.pgadmision .titlepg {
+    color: #008080;
+    padding-bottom: 34px;
+    margin-top: 34px;
+}
+.content_left h1 {
+    margin-top: 50px;
+    color: #008080;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.cbi_scrollbar.content_left {
+    height: 770px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.box_3_title h1{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    color: #008080;
+    margin-bottom: 35px;
+}
+.contentLandingWrap.default .callToAction a:after, .contentLandingWrap.default .title:after, .contentLandingWrap .callToAction a:after, .contentLandingWrap .title:after {
+    background-position: center -44px;
+}
+
+.contentLandingWrap.default .callToAction a, .contentLandingWrap.default .title, .contentLandingWrap .callToAction a, .contentLandingWrap .title {
+    background: #4dc3cf;
+    color: #000;
+}
+.two_col_wrap {
+    width: 98em;
+    margin: 0 auto 10em;
+    padding-bottom: 0;
+}
+.two_col_wrap .colHeightFix {
+    background: #fff;
+    float: left;
+    width: 72em;
+    margin: 0;
+    position: relative;
+}
+.contentLandingWrap .title {
+    border: none;
+    color: #000;
+    position: relative;
+    background: #4dc3cf;
+    text-align: center;
+    padding: 1em 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.col12 {
+    max-width: 96em;
+    margin: 0 auto;
+}
+.title h1, .title h2 {
+    color: #000;
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+.title h1, .section_home h1, .two_col_wrap h1, .innerCol h1:first-of-type {
+    color: #2f2f2f;
+    font-size: 2.4em;
+    font-weight: normal;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 1;
+}
+.title p {
+    font-size: 1em;
+    font-weight: 100;
+}
+.headerArea .clearfix {
+    display: block;
+}
+.title .col12 {
+    position: relative;
+}
+.box_3_title {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    font-size: 36px;
+    color: #008080;
+    margin-bottom: 35px;
+}
+.head_title_gallery {
+    font-size: 36px;
+    color: #008080;
+    margin-bottom: 0;
+    line-height: 100%;
+}
+.whatweoffer h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #008080;
+}
+.two_col_wrap .colHeightFix {
+    background: #fff;
+    float: left;
+    width: 72em;
+    margin: 0;
+    position: relative;
+}
+.leadershippg .subpage_content_in .subcontent .titGroup {
+    font-size: 36px;
+    padding-top: 80px;
+    padding-bottom: 78px;
+}
+.contentLandingWrap .two_col_wrap .innerCol {
+    padding-top: 6.5em;
+    border-top: none;
+}
+.contentLandingWrap .two_col_wrap {
+    position: relative;
+}
+.two_col_wrap .innerCol {
+    padding: 2em 2em 1em;
+    border-top: 7px solid #4dc3cf;
+    position: relative;
+}
+.htmlContent {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.contentLandingWrap .two_col_wrap .innerCol .contentBlock {
+    margin-bottom: 2em;
+}
+.supportingContent {
+    position: relative;
+    float: left;
+    width: 29.411764706%;
+}
+.contentLandingWrap .two_col_wrap .innerCol .contentBlock img {
+    float: none;
+    width: 100%;
+}
+.htmlContent img {
+    height: auto !important;
+    max-width: 100%;
+}
+img {
+    line-height: 0;
+    /*display: block;*/
+}
+.contentLandingWrap .two_col_wrap .innerCol .contentBlock .innerContent {
+    float: right;
+    width: 67.647058824%;
+    padding-top: 0;
+}
+/*css middle*/
+.ptitle_extra_activities {
+    font-size: 36px;
+    color: #008080;
+    margin-bottom: 30px;
+    line-height: 100%;
+}/*
+css for school life*/
+
+.flower-section .cover .col-md-3 .content .incover {
+    display: table-cell;
+    text-align: center;
+    padding-top: 10px;
+    color: #008080;
+    font-size: 16px;
+}
+.box_activities {
+    border-top: 1px solid #eeeeee;
+    padding-bottom: 30px;
+}
+.bg_f6f6f6 {
+    background: #f6f6f6;
+}
+.gal {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+.gal img {
+    width: 100%;
+    padding: 7px 0;
+}
+.activities_title {
+    width: 280px;
+    height: auto;
+    float: right;
+    background: #4dc3cf;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 60px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 60px;
+    line-height: 100%;
+}
+.activities_item .des .title {
+    font-size: 20px;
+    color: #4dc3cf;
+}
+.activities_item .des {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 150%;
+    padding: 0 25px;
+}
+.list_activities {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 55px;
+}
+@media (min-width: 992px)
+.col-md-3 {
+    width: 25%;
+}
+@media (min-width: 992px)
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+.activities_item {
+    width: 100%;
+    height: auto;
+    float: left;
+    border: 1px solid transparent;
+    padding-bottom: 40px;
+    border-bottom-left-radius: 60px;
+    cursor: pointer;
+}
+.activities_item .img {
+    width: 100%;
+    height: 288px;
+    float: left;
+    border-bottom-left-radius: 60px;
+    overflow: hidden;
+    position: relative;
+}
+.activities_item .img .overlay {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4dc3cf;
+    border-bottom-left-radius: 60px;
+}
+.activities_item .img img {
+    width: 100%;
+    max-height: 309px;
+}
+/*css for calenda*/
+#calendar .fc-event, #calendar .fc-event-dot {
+    background-color: #008080;
+    border-color: #008080;
+}
+.Transport{
+    text-align: center;
+    color: red;
+}

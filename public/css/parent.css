@@ -1,0 +1,447 @@
+.one_col_wrap {
+    max-width: 98em;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-bottom: 4em;
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.shareThis a img {
+    display: inline-block;
+    width: auto;
+}
+a img {
+    border: none;
+}
+.addthis_button, .at15t {
+    cursor: pointer;
+}
+.shareThis p {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    float: left;
+    margin-right: 1em;
+}
+.shareThis {
+    float: right;
+    background: #f8f4f3;
+    margin: 0.5em 0 2em;
+    padding: 1.2em 1.5em;
+}
+.section_home.one_col_wrap:before {
+    background: url(images/sectionHomeTear.png) repeat-x top;
+    height: 10px;
+    top: 0;
+}
+.backgroundIllustration, .tpl-parents-hub-with-events .backgroundIllustration, .tpl-parents-hub .backgroundIllustration, .tpl-connect-without-calendar .backgroundIllustration, .tpl-blog-list .backgroundIllustration, .tpl-calendar-with-events .backgroundIllustration, .tpl-event .backgroundIllustration, .tpl-blog-category .backgroundIllustration, .tpl-blog-post .backgroundIllustration {
+    position: absolute;
+    top: -6em;
+    right: 0;
+    z-index: 0;
+    width: 463px;
+    display: block;
+    height: 222px;
+    background: url(images/illustration-learning.png?v=1) right 0 no-repeat;
+}
+.section_home.one_col_wrap .innerCol {
+    border: none;
+}
+.one_col_wrap .innerCol {
+    padding: 2em 2em 1em;
+    background: #fff;
+    overflow: hidden;
+    border-top: 7px solid #4dc3cf;
+    position: relative;
+}
+.summary_wrap {
+    padding-bottom: 1em;
+}
+.stacked {
+    display: inline;
+    float: left;
+    width: 97.916666667%;
+    margin: 0 1.041666667%;
+    margin-bottom: 1em;
+}
+p.summary, .generalIntroWrap {
+    color: #000;
+    font-size: 2em;
+    line-height: 1.5;
+}
+.section_home .panels {
+    display: inline;
+    float: left;
+    width: 97.916666667%;
+    margin: 0 1.041666667%;
+    margin-bottom: 2em;
+}
+.section_home .panels ul {
+    display: block;
+    width: 102.083333333%;
+    margin: 0 -1.041666667%;
+}
+.section_home .panels ul li {
+    display: inline;
+    float: left;
+    width: 31.25%;
+    margin: 0 1.041666667%;
+    position: relative;
+}
+.section_home .panels ul li a {
+    display: block;
+    background-color: #fff;
+    margin-bottom: 2em;
+}
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+.section_home .panels ul li a img {
+    width: 100%;
+    height: auto;
+}
+.section_home .panels ul li a.external-link .inner {
+    background-image: url(images/external-link.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.section_home .panels ul li a .inner {
+    padding: 1.1em 1.5em 1.5em;
+    height: 13.9em;
+    overflow: hidden;
+    border-top: 3px solid #4dc3cf;
+    background-color: #edebea;
+    position: relative;
+}
+.section_home .panels ul li a span {
+    display: block;
+}
+.section_home .panels ul li a .inner:before {
+    content: "";
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -3px;
+    background: url(images/footer-tear-mask.png) 0 0 repeat-x;
+}
+.section_home .panels ul li a .heading {
+    font-size: 2.6em;
+    line-height: 1.2;
+    margin-bottom: 0.2em;
+    color: #000;
+    font-family: 'Source Sans Pro',"Trebuchet MS",Arial,sans-serif;
+    text-transform: inherit;
+}
+.section_home .panels ul li a span {
+    display: block;
+}
+.section_home .panels ul li a .text {
+    font-size: 1.5em;
+    color: #000;
+}
+.section_home .panels ul li a span {
+    display: block;
+}
+@media only screen and (max-width: 1920px ) {
+    .summary_wrap {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        left: 0;
+        top: 0;
+        box-sizing: border-box;
+        float: none;
+        display: block;
+    }
+}
+/* start top header new  */
+.headerInner {
+    min-height: 8em;
+    padding: 0.75em 0 2em;
+    position: relative;
+    z-index: 200;
+    background: #fff;
+    border-top: none;
+}
+.col12 {
+    max-width: 96em;
+    margin: 0 auto;
+}
+#HeaderLeft {
+    width: 58.7%;
+    padding-top: 1em;
+    margin: 1.1% 0;
+    display: inline;
+    float: left;
+}
+#HeaderRight {
+    float: right;
+    width: 39.2%;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+header img {
+    float: left;
+    margin: 0 10px;
+}
+.mobile {
+    display: none;
+}
+.headerRightLinks {
+    width: 100%;
+    float: left;
+}
+.LanguageSwitcher {
+    float: right;
+}
+.headerRightLinks {
+    width: 100%;
+    float: left;
+}
+.searchContainer {
+    float: right;
+}
+.openSearch, .close {
+    display: none;
+}
+.admissionsTel span {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #000;
+    display: inline-block;
+    min-height: 1em;
+}
+.searchContainer .site-search .button {
+    display: inline-block;
+    text-indent: -9999px;
+    cursor: pointer;
+    height: 100%;
+    width: 30px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: url(images/header-icon-sprite.png) no-repeat 0 5px;
+}
+.searchContainer .site-search {
+    position: relative;
+    width: 155px;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    margin-left: 7px;
+    float: right;
+}
+.searchContainer .site-search .text {
+    display: inline-block;
+    background: #edecea;
+    padding: 0.55em 30px 0.55em 1em;
+    width: 100%;
+    color: #717171;
+    -webkit-border-radius: 18px 18px 18px 18px;
+    -moz-border-radius: 18px 18px 18px 18px;
+    -ms-border-radius: 18px 18px 18px 18px;
+    -o-border-radius: 18px 18px 18px 18px;
+    border-radius: 18px 18px 18px 18px;
+    -webkit-animation: background-color 0.5s ease-in-out;
+    -moz-animation: background-color 0.5s ease-in-out;
+    -ms-animation: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.6em;
+    border: 1px solid #edecea;
+}
+
+.searchContainer .site-search .button {
+    display: inline-block;
+    text-indent: -9999px;
+    cursor: pointer;
+    height: 100%;
+    width: 30px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: url(images/header-cta-icon-sprite.png) no-repeat 0 5px;
+}
+.searchContainer .site-search label.text {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    background: none;
+}
+.admissionsTel {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    display: inline-block;
+    float: right;
+    margin-right: 0.5em;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #000;
+    line-height: 1;
+    margin-top: 0.1em;
+}
+/* end top header */
+.parentEssentials, .globalClassroom {
+    font-size: 1.3em;
+    background: url(images/header-cta-icon-sprite.png) 0 -130px no-repeat;
+    float: right;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 1em 1.0em;
+    padding: 0.4em 0 0.4em 2.0em;
+}
+.clearfix {
+    display: block;
+}
+.searchContainer .site-search {
+    position: relative;
+    width: 155px;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    margin-left: 7px;
+    float: right;
+}
+ /* css top new */
+ @media only screen and (max-width: 1152px ) {
+
+
+ .headerWrap .parentEssentials, .headerInner .parentEssentials, .headerWrap .globalClassroom, .headerInner .globalClassroom {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+.searchContainer {
+    width: 100%;
+    background: #e3e1dc;
+}
+.openSearch {
+    height: 3em;
+    position: absolute;
+    top: 4.2em;
+    right: 0.5em;
+    width: 3.5em;
+    padding: 0.5em 1em;
+}
+/* end css top new */
+
+ }
+ @media screen and (max-width: 1023px){
+    .searchContainer {
+        width: 100%;
+    }
+    .admissionsTel {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+    }
+        
+} 
+ @media screen and (max-width: 767px){
+    .searchContainer {
+        width: 100%;
+        background: #e3e1dc;
+    }
+        .searchContainer .site-search {
+            clear: both;
+            width: calc(100% - 4.2em);
+            margin: 0;
+            height: 50px;
+            padding: 1em;
+            float: left;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .searchContainer .searchBoxWrap {
+            display: none;
+        }
+        .searchContainer .site-search .text {
+            width: 100%;
+            padding: 0.434em 2.2em 0.434em 1em;
+            margin: 0;
+            background: #fff;
+            font-size: 1.5em;
+        }
+        .searchContainer .site-search .button {
+            right: 1.5em;
+            top: 50%;
+            margin-top: -8px;
+            background: url(images/mobile-header-icon-sprite.png) no-repeat -36px 0;
+            width: 15px;
+            height: 17px;
+        }
+        
+        
+        .searchContainer .close {
+            margin-top: 0.5em;
+        }
+        .close {
+            width: 4em;
+            height: 4em;
+            float: left;
+        }
+        .openSearch {
+            height: 3em;
+            position: absolute;
+            top: 4.2em;
+            right: 0.5em;
+            width: 3.5em;
+            padding: 0.5em 1em;
+        }
+        .openSearch, .close {
+            position: relative;
+            display: block;
+            text-indent: -9999px;
+        }
+        .searchContainer .searchBoxWrap {
+            display: none;
+        }
+ }
