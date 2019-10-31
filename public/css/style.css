@@ -423,7 +423,7 @@ padding-right: 70px;
         width: 19px;
         height: 19px;
         float: right;
-        /* background: #008080 url('/images/navDivot.png') center 0 no-repeat; */
+         background: #008080 url('/images/navDivot.png') center 0 no-repeat; 
         margin-top: 13px;
         display: none;
     }
