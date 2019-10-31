@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 class TestimonialController extends Controller
 {
+    protected $viewPath = 'voyager-frontend';
     /**
      * Display a listing of the resource.
      *
@@ -14,7 +15,10 @@ class TestimonialController extends Controller
      */
     public function index()
     {
-        return Testimonial::all();
+        $testimonials = Testimonial::all();
+        return view("{$this->viewPath}::modules/testimonials/testimonials", [
+            'posts' => $testimonials,
+        ]);
     }
 
     /**
