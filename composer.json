@@ -16,7 +16,8 @@
         "pvtl/voyager-forms": "^0.4.1",
         "pvtl/voyager-frontend": "^0.9.3",
         "pvtl/voyager-pages": "^0.2.10",
-        "tcg/voyager": "^1.3"
+        "tcg/voyager": "^1.3",
+        "unisharp/laravel-filemanager": "v2.0.0-alpha8"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",

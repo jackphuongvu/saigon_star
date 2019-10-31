@@ -40,5 +40,7 @@
 
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <script src="{{ url('/') }}/js/app.js"></script>
+
+        {{--CUSTOM JS--}}
 </body>
 </html>
