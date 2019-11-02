@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/homenew', function () {
+Route::get('/home', function () {
     return view('pages.home');
 });
 Route::get('/about-us', function () {
