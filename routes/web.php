@@ -11,8 +11,11 @@
 |
 */
 
-Route::get('foo', function () {
-    return 'Hello World';
+Route::get('/homenew', function () {
+    return view('pages.home');
+});
+Route::get('/about-us', function () {
+    return view('pages.about-us');
 });
 
 Route::group(['prefix' => 'admin'], function () {
