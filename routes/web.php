@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('foo', function () {
+    return 'Hello World';
+});
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -27,8 +30,8 @@ Route::group(['prefix' => 'admin'], function () {
 //    Route::get('/', ['uses' => 'PostController@getPosts', 'as' => 'list']);
 //    Route::get('{slug}', ['uses' => 'PostController@getPost', 'as' => 'post']);
 //});
-Route::group([
-    'prefix' => 'testimonials',
-], function () {
-    Route::get('/{slug}', 'TestimonialController@index');
-});
+//Route::group([
+//    'prefix' => 'testimonials',
+//], function () {
+//    Route::get('/{slug}', 'TestimonialController@index');
+//});
