@@ -1,6 +1,6 @@
 @include('voyager-frontend::partials.meta')
 @include('voyager-frontend::partials.header')
 
-<p>NEW HOME PAGE</p>
+<p>ABOUT US PAGE</p>
 
 @include('voyager-frontend::partials.footer')
