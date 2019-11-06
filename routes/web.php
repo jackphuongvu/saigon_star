@@ -11,16 +11,16 @@
 |
 */
 
-Route::get('/home', function () {
-    return view('pages.home');
-});
-Route::get('/about-us', function () {
-    return view('pages.about-us');
-});
-
-Route::group(['prefix' => 'admin'], function () {
-    Voyager::routes();
-});
+//Route::get('/home', function () {
+//    return view('pages.home');
+//});
+//Route::get('/about-us', function () {
+//    return view('pages.about-us');
+//});
+//
+//Route::group(['prefix' => 'admin'], function () {
+//    Voyager::routes();
+//});
 
 //
 
@@ -38,3 +38,30 @@ Route::group(['prefix' => 'admin'], function () {
 //], function () {
 //    Route::get('/{slug}', 'TestimonialController@index');
 //});
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/',function(){
+    return View::make('pages.home');
+});
+Route::get('/', function () {
+    return view('layouts.master');
+});
+// Route::get('/',function(){
+
+// 	return View::make('pages.home');
+// });
+Route::get('aboutus', function()
+{
+    return View::make('pages.aboutus');
+});
+// Route::get('projects', function()
+// {
+//     return View::make('pages.projects');
+// });
+// Route::get('contact', function()
+// {
+//     return View::make('pages.contact');
+// });
