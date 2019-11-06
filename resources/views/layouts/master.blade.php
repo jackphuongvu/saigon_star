@@ -63,7 +63,7 @@
 	<link rel="stylesheet" href="{{asset('css/hover-min.css')}}">
 	<link rel="stylesheet" href="{{asset('css/megamenu.css')}}">
 	<link href="{{asset('css/main.css')}}" rel="stylesheet">
-	<link href="{{asset('css/styles.css')}}" rel="stylesheet">
+	<link href="{{asset('css/style.css')}}" rel="stylesheet">
 	<link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
 	<link href="{{asset('css/bannermain.css')}}" rel="stylesheet">
 	<link href="{{asset('css/responsive.css')}}" rel="stylesheet">
