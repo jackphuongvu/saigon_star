@@ -43,19 +43,15 @@
 //     return view('welcome');
 // });
 
-Route::get('/',function(){
-    return View::make('pages.home');
-});
 Route::get('/', function () {
-    return view('layouts.master');
+    return view('pages.home');
 });
 // Route::get('/',function(){
 
 // 	return View::make('pages.home');
 // });
-Route::get('aboutus', function()
-{
-    return View::make('pages.aboutus');
+Route::get('aboutus', function () {
+    return view('pages.aboutus.aboutus');
 });
 // Route::get('projects', function()
 // {
@@ -65,3 +61,13 @@ Route::get('aboutus', function()
 // {
 //     return View::make('pages.contact');
 // });
+Route::get('schoollife/{menu_item}', function ($menu_item) {
+    if ($menu_item === 'sports') {
+        return view('pages.schoollife.sports');
+    } else if ($menu_item === 'art-design-music') {
+        return view('pages.schoollife.art-design-music.blade');
+    } else if ($menu_item === 'performing-arts') {
+        return view('pages.schoollife.performing-arts.blade');
+    }
+    return view('pages.schoollife.schoollife');
+});

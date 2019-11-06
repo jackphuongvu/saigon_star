@@ -22,7 +22,7 @@
                   <li><a href="#" target="_blank" class="btn btn-default">Request for more information</a></li>
                   <li><a href="#" target="_blank" class="btn btn-default">Apply now</a></li>
               </ul>
-                          
+
 
               <div class="footer_social">
                  <a target="_blank" href="#" class="left"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -61,9 +61,9 @@
                 <a href="https://www.sgstar.edu.vn/"><img src="images/ib-world-school-continuum1.png" alt="IB World School Continuum"></a>
                 <a href="https://www.sgstar.edu.vn/"><img src="images/logo_footer_cisn.png" alt="IB World School"></a>
                 </div>
-               
+
              </div>
-             
+
               <div class="newsletter">
                 <form name="frmSignup" class="input-group fv-form fv-form-bootstrap" id="frmSignup" method="post" action="https://www.SaiGon Starhcmc.com/index.php?m=home&amp;c=save_signup" novalidate><button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>
                   <input type="text" class="noshow" name="leaveblank" style="display:none;">
@@ -78,7 +78,7 @@
                   </span>
                 </form>
               </div><!-- /input-group -->
-             
+
           </div>
 
        </div>
@@ -103,7 +103,7 @@
     display: block;
   }
   .newsletter .btn{
-    background: #f5720c !important;    
+    background: #f5720c !important;
   }
 </style>
 
@@ -143,9 +143,9 @@ jQuery(document).ready(function($) {
                 message: 'Please enter a valid email address.'
               }
             }
-          },    
+          },
         }
-    })    
+    })
     .on('err.validator.fv', function(e, data) {
             // data.bv        --> The FormValidation.Base instance
             // data.field     --> The field name
@@ -165,33 +165,33 @@ jQuery(document).ready(function($) {
 });
 $(window).scroll(function(){
     var top = $(window).scrollTop();
-    
+
     if(top>0){
-        $("#menu_scroll").addClass("header_top_scroll");        
+        $("#menu_scroll").addClass("header_top_scroll");
     }
     else{
-        $("#menu_scroll").removeClass("header_top_scroll");        
+        $("#menu_scroll").removeClass("header_top_scroll");
     }
 
 });
-jQuery(function($){    
+jQuery(function($){
     $('#editcontentModal').on('shown.bs.modal', function() {
       $(document).off('focusin.modal');
   });
 });
-function show_edit_content(str_config){  
+function show_edit_content(str_config){
   $("#frEditcontent").attr("action","#/load_edit_content.php");
-    $("#str_config").val(str_config); 
+    $("#str_config").val(str_config);
     $('#edit_content_show').load('https://www.SaiGon Starhcmc.com/load_edit_content.php?str_config='+str_config,function(result){
             $('#editcontentModal').modal('show');
             $("#is_show_edit").val(1);
         });
 }
-function show_edit_resource(key){      
+function show_edit_resource(key){
     $("#frEditcontent").attr("action","#/update_resource.php");
     $("#resource_key").val(key);
     $('#edit_content_show').load('#/update_resource.php?key='+key,function(result){
-    $('#editcontentModal').modal('show');          
+    $('#editcontentModal').modal('show');
       });
 }
 </script>
@@ -199,7 +199,7 @@ function show_edit_resource(key){
 
 <input type="hidden" id="is_show_edit" name="is_show_edit" value="0">
 <div id="editcontentModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-  <div class="modal-dialog modal-lg" role="document">    
+  <div class="modal-dialog modal-lg" role="document">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
@@ -210,7 +210,7 @@ function show_edit_resource(key){
         <form action="#/load_edit_content.php" id="frEditcontent" method="post">
           <input type="hidden" name="str_config" id="str_config" value="">
           <input type="hidden" name="resource_key" id="resource_key" value="">
-          <input type="hidden" name="url_redi" value="#">          
+          <input type="hidden" name="url_redi" value="#">
           <div id="edit_content_show"></div>
         </form>
       </div>
@@ -232,7 +232,7 @@ function show_edit_resource(key){
                </div>
                <div class="modal-body">
                     <p id="sys_alert"></p>
-               </div>               
+               </div>
         </div>
     </div>
 </div>
@@ -253,7 +253,7 @@ jQuery(function($){
                 }
         });
     });
-});  
+});
 </script>
 
 
@@ -264,8 +264,8 @@ jQuery(function($){
                  <div class="group_1">
                 <a href="booktour.html" target="_blank" class="download">Book a tour</a>
                 <a href="booktour.html" target="_blank" class="download">Inquire more information</a>
-             </div> 
-              
+             </div>
+
    <div class="group_2">
      <a href="#" target="_blank" class="fb"><i class="fa fa-facebook" aria-hidden="true"></i></a>
      <a href="#" target="_blank" class="lin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -274,3 +274,22 @@ jQuery(function($){
    </div>
    Social netwok
 </div>
+    {{--<script type="text/javascript">--}}
+        {{--$(document).ready(function(){--}}
+            {{--var w_width = $(window).width();--}}
+            {{--console.log('w_width: ', w_width);--}}
+            {{--if(w_width > 1024){--}}
+                {{--$(".dropdown").hover(--}}
+                    {{--function() {--}}
+                        {{--$('.dropdown-menu', this).stop( true, true ).slideDown(200);--}}
+                        {{--$(this).toggleClass('open');--}}
+                    {{--},--}}
+                    {{--function() {--}}
+                        {{--$('.dropdown-menu', this).stop( true, true ).slideUp(200);--}}
+                        {{--$(this).toggleClass('open');--}}
+                    {{--}--}}
+                {{--);--}}
+            {{--}--}}
+
+        {{--});--}}
+    {{--</script>--}}
