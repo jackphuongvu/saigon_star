@@ -244,12 +244,6 @@
 	                    </div>                   
 					</div>				
 				</li>
-				 
-	    		<!-- <li class="dropdown mega-dropdown ">
-				    <a href="testimonials.html" class="dropdown-toggle disabled" data-toggle="dropdown">Testimonial</a>
-					<i class="i_mobile_ex" data-toggle="dropdown"></i>				
-				</li> -->
-				
 	        </ul>
 	        
 	        <div class="share_mobile">

@@ -189,7 +189,7 @@ b {font-size: 16px;}
 			</div>
 			<div class="b_class_item last">
 				<div class="name"> Middle Year</div>
-				<a href="#/"><img src="images/fun04.jpg" class="img-responsive hvr-grow" alt="International Middle"></a>
+				<a href="#"><img src="images/fun04.jpg" class="img-responsive hvr-grow" alt="International Middle"></a>
 			</div>
 			
 		</div>
@@ -485,40 +485,9 @@ function downloadGooglCal(type, id){
 		}
 	});
 }
-
 </script>
 
-<div id="sysAlertModal" class="modal fade sysAlertModal" role="dialog">
-     <div class="modal-dialog">
-        <div class="modal-content">
-               <div class="modal-header" id="sysalert_header">
-                     <button type="button" class="close" data-dismiss="modal">×</button>
-                     <h4 class="modal-title">Message</h4>
-               </div>
-               <div class="modal-body">
-                    <p id="sys_alert"></p>
-               </div>               
-        </div>
-    </div>
-</div>
-
-<script type="text/javascript">
-jQuery(function($){
-    function show_alert(msg){
-        $("#sys_alert").html(msg);
-        $('#sysAlertModal').modal();
-    }
-        $('#sysAlertModal').on('hidden.bs.modal', function (e) {
-       $.ajax({
-                type: "POST",
-                data: "",
-                url: "https://www.sgstar.edu.vn/remove_alert.php",
-                success: function(msg)
-                {
-                }
-        });
-    });
-});  
+<script>
 $(document).ready(function() {
 	$(".various").fancybox({
 		maxWidth	: 800,
