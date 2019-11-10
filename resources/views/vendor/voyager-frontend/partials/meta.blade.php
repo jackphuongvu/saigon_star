@@ -24,11 +24,10 @@
     <link rel="apple-touch-icon-precomposed" href="{{ url('/') }}/images/apple-touch-icon.png" />
 
     <!-- Styles -->
-    <link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/app.css">
+    {{--<link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/app.css">--}}
     <link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/responsive.css">
     <link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/">
-    <link rel="stylesheet" type="text/css" href="{{ url('/') }}/css/app.css">
-    
+
 
     @if (setting('site.google_analytics_tracking_id'))
     <!-- Google Analytics (gtag.js) -->
