@@ -55,19 +55,19 @@
 
 		<!-- Academic -->
 		<li class="dropdown mega-dropdown ">
-		    <a href="OurSharedVision.html" class="dropdown-toggle disabled" data-toggle="dropdown">An International Curriculum</a>
+		    <a href="/ancurriculum/teachandlearning" class="dropdown-toggle disabled" data-toggle="dropdown">An International Curriculum</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-5">
                 		<ul id="menutop_sub_3">
-                			<li class=""><a href="early-years-school.html">Early Years (age 2-5)</a></li>
-                			<li class=""><a href="international-primary.html">Primary (age 5-11)</a></li>
-                			<li class=""><a href="international-middle.html">Middle Years (age 11-14)</a></li>
-                			<li class=""><a href="#">Pathways to University</a></li>
-                			<li class=""><a href="OurSharedVision.html">Teaching & Learning in Action</a></li>
-                			<li class=""><a href="#">Assessment & Reporting</a></li>
-                			<li class=""><a href="#">Curriculum Downloads</a></li>
+                			<li class=""><a href="/ancurriculum/earlyear">Early Years (age 2-5)</a></li>
+                			<li class=""><a href="/ancurriculum/primary">Primary (age 5-11)</a></li>
+                			<li class=""><a href="/ancurriculum/middleyears">Middle Years (age 11-14)</a></li>
+                			<li class=""><a href="/ancurriculum/pathwaytouniversity">Pathways to University</a></li>
+                			<li class=""><a href="/ancurriculum/teachandlearning">Teaching & Learning in Action</a></li>
+                			<li class=""><a href="/ancurriculum/assessment">Assessment & Reporting</a></li>
+                			<li class=""><a href="/ancurriculum/curriculumdownloads">Curriculum Downloads</a></li>
                 		</ul>
                 	</div>
 
