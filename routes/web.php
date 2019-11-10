@@ -96,5 +96,24 @@ Route::get('schoollife/{menu_item}', function ($menu_item) {
     } else if ($menu_item === 'performing-arts') {
         return view('pages.schoollife.performing-arts.blade');
     }
+    else if ($menu_item === 'after-school-activities') {
+        return view('pages.schoollife.after-school-activities.blade');
+    }
+    else if ($menu_item === 'week-without-walls') {
+        return view('pages.schoollife.performing-arts.blade');
+    }
+    // ============== ============== ==============
+//    else if ($menu_item === 'performing-arts') {
+//        return view('pages.schoollife.performing-arts.blade');
+//    }
+//    else if ($menu_item === 'performing-arts') {
+//        return view('pages.schoollife.performing-arts.blade');
+//    }
+//    else if ($menu_item === 'performing-arts') {
+//        return view('pages.schoollife.performing-arts.blade');
+//    }
+//    else if ($menu_item === 'performing-arts') {
+//        return view('pages.schoollife.performing-arts.blade');
+//    }
     return view('pages.schoollife.schoollife');
 });

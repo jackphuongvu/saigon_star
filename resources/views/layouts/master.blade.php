@@ -23,6 +23,7 @@
 	<link rel="canonical" href="https://www.sgstar.edu.vn/">
 	<!-- js -->
 	<script  language="JavaScript" src="{{asset('js/jquery-1.11.3.min.js')}}"></script>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 	<!-- multi select -->
 	<link rel="stylesheet" href="css/bootstrap-multiselect.css" media="all" >
 	<noscript><link rel="stylesheet" href="css/bootstrap-multiselect.css"></noscript>
@@ -42,6 +43,10 @@
 	<noscript><link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"></noscript>
 	<link rel="stylesheet" href="{{asset('css/bootstrap-editable.css')}}" media="all" >
 	<noscript><link rel="stylesheet" href="{{asset('css/bootstrap-editable.css')}}"></noscript>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+	<!-- Add the slick-theme.css if you want default styling -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 
 	<link rel="stylesheet" href="{{asset('css/formValidation.css')}}" media="all" >
 	<noscript><link rel="stylesheet" href="{{asset('css/formValidation.css')}}"></noscript>

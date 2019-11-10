@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
-<link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">
-<script type="text/javascript" src="{{asset('js/jquery.fancybox.min.js')}}"></script>
+{{--<link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">--}}
+{{--<script type="text/javascript" src="{{asset('js/jquery.fancybox.min.js')}}"></script>--}}
 
 <div class="clr"></div>
 <div class="full left bg_home_box_1 bg_home_box_1_n">
