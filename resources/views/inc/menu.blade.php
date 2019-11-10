@@ -1,4 +1,3 @@
-
 <div class="w_1280">
 
 <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
