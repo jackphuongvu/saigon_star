@@ -111,9 +111,11 @@
 <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 @yield('content')
 <div class="clr"></div>
-@include('layouts.latest-news')
+@include('inc.latest-news')
 <div class="clr"></div>
-@include('layouts.community-voices')
+@include('inc.community-voices')
+<div class="clr"></div>
+@include('inc.map')
 <div class="clr"></div>
 @include('inc.footer')
 </body>
