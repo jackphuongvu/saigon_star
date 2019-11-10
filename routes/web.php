@@ -46,13 +46,40 @@
 Route::get('/', function () {
     return view('pages.home');
 });
-// Route::get('/',function(){
-
-// 	return View::make('pages.home');
-// });
-Route::get('aboutus', function () {
+// star Routes about us 
+Route::get('/aboutus', function () {
     return view('pages.aboutus.aboutus');
 });
+Route::get('aboutus', function () {
+    return view('pages.aboutus.welcome');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.administractionTeam');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.criticafriends');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.ourhistory');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.ourhistory');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.teacher');
+});
+
+Route::get('aboutus', function () {
+    return view('pages.aboutus.student');
+});
+Route::get('aboutus', function () {
+    return view('pages.aboutus.ourmission');
+});
+
+
+// END ROUTE ABOUTE US
+
+
 // Route::get('projects', function()
 // {
 //     return View::make('pages.projects');
