@@ -14,26 +14,26 @@
    		<!-- About Us -->
 
 		<li class="dropdown mega-dropdown ">
-		    <a href="about-us.html" class="dropdown-toggle disabled" data-toggle="dropdown">About Us</a>
+		    <a href="/aboutus/aboutus" class="dropdown-toggle disabled" data-toggle="dropdown">About Us</a>
 		    <i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-3">
                 		<ul id="menutop_sub_1">
-                			<li class=""><a href="welcome-to-saigonstar.html">A Welcome from the Head of School</a></li>
-							<li class=""><a href="#">Our Vision,Mission & Values</a></li>
-                			<li class=""><a href="#">Our History </a></li>
-                			<li class=""><a href="about-us.html">Do you Know ? </a></li>
+                			<li class=""><a href="/aboutus/welcome">A Welcome from the Head of School</a></li>
+							<li class=""><a href="/aboutus/ourmission">Our Vision,Mission & Values</a></li>
+                			<li class=""><a href="/aboutus/ourhistory">Our History </a></li>
+                			<li class=""><a href="/aboutus/aboutus">Do you Know ? </a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Our People</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="leadership-team.html">Leadership Team</a></li>
-							<li class=""><a href="Faculty.html">Teacher(filtered by phase)</a></li>
-							<li class=""><a href="student-council.html">Student Council</a></li>
-							<li class=""><a href="student-council.html">Administration Team</a></li>
-							<li class=""><a href="student-council.html">Critical Friends</a></li>
+							<li class=""><a href="/aboutus/leadershipTeam">Leadership Team</a></li>
+							<li class=""><a href="/aboutus/">Teacher(filtered by phase)</a></li>
+							<li class=""><a href="/aboutus/student">Student Council</a></li>
+							<li class=""><a href="/aboutus/administrationTeam">Administration Team</a></li>
+							<li class=""><a href="/aboutus/criticalfriends">Critical Friends</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">

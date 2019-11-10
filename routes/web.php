@@ -46,34 +46,30 @@
 Route::get('/', function () {
     return view('pages.home');
 });
-// star Routes about us 
-Route::get('/aboutus', function () {
+Route::get('aboutus/{menu_item}', function ($menu_item) {
+    if ($menu_item === 'welcome') {
+        return view('pages.aboutus.welcome');
+    } else if ($menu_item === 'administractionTeam') {
+        return view('pages.aboutus.administractionTeam.blade');
+    } else if ($menu_item === 'ourhistory') {
+        return view('pages.aboutus.ourhistory.blade');
+    }
+    else if ($menu_item === 'teacher') {
+        return view('pages.aboutus.teacher.blade');
+    }
+    else if ($menu_item === 'student') {
+        return view('pages.aboutus.student.blade');
+    }
+    else if ($menu_item === 'criticafriends') {
+        return view('pages.aboutus.criticafriends.blade');
+    }
+    else if ($menu_item === 'aboutus') {
+        return view('pages.aboutus.aboutus.blade');
+    }
+    else if ($menu_item === 'ourmission') {
+        return view('pages.aboutus.ourmission.blade');
+    }
     return view('pages.aboutus.aboutus');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.welcome');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.administractionTeam');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.criticafriends');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.ourhistory');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.ourhistory');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.teacher');
-});
-
-Route::get('aboutus', function () {
-    return view('pages.aboutus.student');
-});
-Route::get('aboutus', function () {
-    return view('pages.aboutus.ourmission');
 });
 
 
