@@ -106,17 +106,23 @@
 
 	});
 </script>
+{{-- this is container banner --}}
 @include('inc.banner')
 <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+{{-- this is container content --}}
 @yield('content')
 <div class="clr"></div>
+{{-- this is area lastest news --}}
 @include('inc.latest-news')
 <div class="clr"></div>
+{{-- this is area testiminal --}}
 @include('inc.community-voices')
 <div class="clr"></div>
+{{-- this is area map --}}
 @include('inc.map')
 <div class="clr"></div>
+{{-- this is area footer --}}
 @include('inc.footer')
 </body>
 </html>
