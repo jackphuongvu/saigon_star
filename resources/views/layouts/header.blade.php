@@ -1,9 +1,9 @@
 @extends('layouts.master')
 <div class="full left header_top">
-	<div class="w_1280">		
+	<div class="w_1280">
 		<a href="<?php echo url('home') ?>" class="logo">
-			<img style="background-color: white;" src="{{asset('images/Logo-horizontal.jpg');}}" class="desk" alt="Saigon Star International">
-			<img src="{{asset('images/Logo-horizontal.jpg');}}" class="mobile">
+			<img style="background-color: white;" src="{{asset('images/Logo-horizontal.jpg')}}" class="desk" alt="Saigon Star International">
+			<img src="{{asset('images/Logo-horizontal.jpg')}}" class="mobile">
 		</a>
 		<div class="header_top_r ">
 			<div class="header_r_t">
