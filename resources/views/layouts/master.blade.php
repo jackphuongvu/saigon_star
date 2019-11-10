@@ -79,9 +79,7 @@
 
 	{{-- Gọi code trang menu --}}
 	<nav class="navbar navbar-default menutop_wrap" role="navigation">
-
 	@include('inc.menu')
-
 	</nav>
 </div>
 
@@ -639,9 +637,9 @@ $(document).ready(function() {
 });
 </script>
 <div class="clr"></div>
-<!-- <div class="full left box_maps">
-  <iframe src="embed.html" width="500" height="600" frameborder="0" style="border:0" allowfullscreen=""></iframe> 
-</div> -->
+<div class="full left box_maps">
+@include('inc.map')
+</div>
 <div class="full left" style="text-align: center;">
     <a href="https://www.google.com/maps/place/Trường+Quốc+Tế+SaiGon+Star" target="_blank" class="download">GET DIRECTIONS</a>
 </div>

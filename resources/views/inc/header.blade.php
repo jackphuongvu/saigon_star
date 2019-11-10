@@ -1,6 +1,6 @@
 <div class="full left header_top">
 	<div class="w_1280">		
-		<a href="saigon.html" class="logo">
+		<a href="<?php echo url('home') ?>" class="logo">
 			<img style="background-color: white;" src="images/Logo-horizontal.jpg" class="desk" alt="Saigon Star International">
 			<img src="images/Logo-horizontal.jpg" class="mobile">
 		</a>		
