@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<!-- Google Tag Manager -->
-	<script async src="js/fbevents.js"></script>
+	{{--<script async src="js/fbevents.js"></script>--}}
 	<script type="text/javascript" async src="{{asset('js/analytics.js')}}"></script>
 	<script async src="{{asset('js/gtm.js')}}"></script>
 	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

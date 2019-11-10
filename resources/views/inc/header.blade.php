@@ -1,9 +1,9 @@
 <div class="full left header_top">
-	<div class="w_1280">		
+	<div class="w_1280">
 		<a href="<?php echo url('home') ?>" class="logo">
 			<img style="background-color: white;" src="images/Logo-horizontal.jpg" class="desk" alt="Saigon Star International">
 			<img src="images/Logo-horizontal.jpg" class="mobile">
-		</a>		
+		</a>
 		<div class="header_top_r ">
 			<div class="header_r_t">
 				<div class="hotline">
@@ -22,11 +22,11 @@
 
 				<!-- top search -->
 				<div class="inner-addon right-addon top_searh">
-				<form action="https://www.sgstar.edu.vn/index.php" method="get">	
+				<form action="https://www.sgstar.edu.vn/index.php" method="get">
 				  <input type="hidden" name="m" value="search">
 		          <i class="glyphicon glyphicon-search"></i>
 		          <input name="q" id="s_text" type="text" value="" class="form-control" placeholder="Keyword ...">
-		        </form>  
+		        </form>
 		        </div>
 				<!-- /top search -->
 				<!--Parents' Essentials-->
@@ -37,7 +37,7 @@
 				</div> -->
 				<!--endParents' Essentials-->
 			</div>
-			
+
 		</div>
 	</div>
 </div>
