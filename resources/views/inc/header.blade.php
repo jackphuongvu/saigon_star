@@ -1,6 +1,6 @@
 <div class="full left header_top">
 	<div class="w_1280">
-		<a href="<?php echo url('home') ?>" class="logo">
+		<a href="{{URL::to('/')}}" class="logo">
 			<img style="background-color: white;" src="{{asset('images/Logo-horizontal.jpg')}}" class="desk" alt="Saigon Star International">
 			<img src="{{asset('images/Logo-horizontal.jpg')}}" class="mobile">
 		</a>

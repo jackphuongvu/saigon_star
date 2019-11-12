@@ -64,6 +64,7 @@
 }
 .clearfix {
     display: block;
+    border-bottom: 2px solid #008080;
 }
 #list_team .team_item .info .info_in {
     width: 95%;
@@ -303,12 +304,7 @@ padding-right: 70px;
     }
     .logo .desk {
         height: 80px;
-        /*width: 166px;*/
     }
-    /*#menu_parent ul.sub {
-        background: #008080;
-        border: 0px; 
-    }*/
     .banner_school_content_top {
         width: 100%;
         height: auto;
@@ -687,6 +683,7 @@ padding-right: 70px;
 }
 
 @media only screen and (max-width: 1200px ) {
+    
     #menutop li a {
         padding: 0 15px;
     }
@@ -862,7 +859,18 @@ padding-right: 70px;
     }
 
     .footer_l {
-        width: 28%;
+        margin-left: 15px;
+        width: auto;
+    }
+    .menu_footer li a {
+        color: #333333;
+        font-size: 16px;
+        border-left: 1px solid #c6c6c6;
+        padding-left: 14px;
+        transition: all .2s ease;
+    }
+    .menu_footer li {
+        margin-bottom: 10px;
     }
 
     .footer_r {
@@ -990,12 +998,8 @@ padding-right: 70px;
 
     li.mega-dropdown.open .mega-dropdown-menu {
         display: inline-block !important;
-        float: left;
+        /* float:left; */
     }
-
-    /* li.mega-dropdown.open .i_mobile_ex {
-        background: #008080 url('/images/navDivot.png') center 0 no-repeat;
-    } */
     .menutop_wrap {
         border: 0px;
         background: #4dc3cf;
@@ -1119,6 +1123,9 @@ padding-right: 70px;
     .footer_info {
         width: 100%;
         margin-top: 20px;
+    }
+    .bg_footer {
+        padding-top: 45px;
     }
 
     .footer_r_top {
@@ -1671,11 +1678,8 @@ padding-right: 70px;
 #tes_Carousel .carousel-indicators {
     left: 55%;
 }
-
 .tes_viewall {
     bottom: 30px;
-}
-
 }
 @media only screen and (max-width: 760px ) {
      .box_banner iframe {
@@ -2408,3 +2412,33 @@ padding-right: 70px;
         margin-left: 0;
     }
 }
+@media only screen and (max-width: 960px){
+    .menu_footer_2 {
+        width: 100%;
+    }
+    .footer_social {
+        width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width: 767px){
+    .menu_footer_2 {
+        width: 100%;
+    }
+    .footer_social {
+        width: 100%;
+        float: left;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .menu_footer_2 {
+        width: 100%;
+    }
+    .footer_social {
+        width: 100%;
+        float: left;
+    }
+}
+
+

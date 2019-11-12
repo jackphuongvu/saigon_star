@@ -14,7 +14,7 @@
    		<!-- About Us -->
 
 		<li class="dropdown mega-dropdown ">
-		    <a href="/aboutus/aboutus" class="dropdown-toggle disabled" data-toggle="dropdown">About Us</a>
+		    <a href="<?php echo url('/aboutus/aboutus')?>" class="dropdown-toggle disabled" data-toggle="dropdown">About Us</a>
 		    <i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
@@ -55,19 +55,19 @@
 
 		<!-- Academic -->
 		<li class="dropdown mega-dropdown ">
-		    <a href="/ancurriculum/teachandlearning" class="dropdown-toggle disabled" data-toggle="dropdown">An International Curriculum</a>
+		    <a href="<?php echo url('/ancurriculum/teachandlearning')?>" class="dropdown-toggle disabled" data-toggle="dropdown">An International Curriculum</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-5">
                 		<ul id="menutop_sub_3">
-                			<li class=""><a href="/ancurriculum/earlyear">Early Years (age 2-5)</a></li>
-                			<li class=""><a href="/ancurriculum/primary">Primary (age 5-11)</a></li>
-                			<li class=""><a href="/ancurriculum/middleyears">Middle Years (age 11-14)</a></li>
-                			<li class=""><a href="/ancurriculum/pathwaytouniversity">Pathways to University</a></li>
-                			<li class=""><a href="/ancurriculum/teachandlearning">Teaching & Learning in Action</a></li>
-                			<li class=""><a href="/ancurriculum/assessment">Assessment & Reporting</a></li>
-                			<li class=""><a href="/ancurriculum/curriculumdownloads">Curriculum Downloads</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/earlyear')?>">Early Years (age 2-5)</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/primary')?>">Primary (age 5-11)</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/middleyears')?>">Middle Years (age 11-14)</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/pathwaytouniversity')?>">Pathways to University</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/teachandlearning')?>">Teaching & Learning in Action</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/assessment')?>">Assessment & Reporting</a></li>
+                			<li class=""><a href="<?php echo url('/ancurriculum/curriculumdownloads')?>">Curriculum Downloads</a></li>
                 		</ul>
                 	</div>
 
@@ -178,18 +178,18 @@
 		<!-- Admission -->
 
 		<li class="dropdown mega-dropdown">
-		    <a href="international-school-admissions.html" class="dropdown-toggle disabled" data-toggle="dropdown">Admissions</a>
+		    <a href="<?php echo url('/admissions/welcometoadmissions')?>" class="dropdown-toggle disabled" data-toggle="dropdown">Admissions</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-5">
                 		<ul id="menutop_sub_3" class="m_admission">
-                			<li class=""><a href="international-school-admissions.html">Welcome to Admissions</a></li>
-                			<li class=""><a href="fees-tuition.html">Fees &amp; Tuition</a></li>
-                			<li class=""><a href="application-process.html">Admissions Process</a></li>
-                			<li class=""><a href="admissions-age-ranges.html">Age & Year Group Placement</a></li>
-                			<li class=""><a href="#">Book a Student Trial</a></li>
-                			<li class=""><a href="apply-now.html">Book a Parent Tour</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/welcometoadmissions')?>">Welcome to Admissions</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/feesandtuitions') ?>">Fees &amp; Tuition</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/adprocess') ?>">Admissions Process</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/agesayears') ?>">Age & Year Group Placement</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/bookatrial') ?>">Book a Student Trial</a></li>
+                			<li class=""><a href="<?php echo url('/admissions/bookaparent') ?>">Book a Parent Tour</a></li>
                 		</ul>
                 	</div>
 
@@ -213,23 +213,23 @@
 		<!-- Contact Us -->
 
 		<li class="dropdown mega-dropdown">
-		    <a href="contact-us.html" class="dropdown-toggle disabled" data-toggle="dropdown">Contact &amp; Services</a>
+		    <a href="<?php echo url('/contactandservices/contactinformation')?>" class="dropdown-toggle disabled" data-toggle="dropdown">Contact &amp; Services</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-3">
                 		<ul id="menutop_sub_1">
-                			<li class=""><a href="contact-us.html">Contact Information</a></li>
-                    		<li class=""><a href="Recruitment.html">Recruitment/Vacancies</a></li>
-							<li class=""><a href="how-to-find-us.html">How to Find Us</a></li>
+                			<li class=""><a href="<?php echo url('/contactandservices/contactinformation')?>">Contact Information</a></li>
+                    		<li class=""><a href="<?php echo url('/contactandservices/Recruitment')?>">Recruitment/Vacancies</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/how-to-find-us')?>">How to Find Us</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Bulletin</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="school-bus.html">School Bus</a></li>
-							<li class=""><a href="school-canteen.html">School Canteen</a></li>
-							<li class=""><a href="school-uniform.html">School Uniform</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/school-bus')?>">School Bus</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/school-canteen')?>">School Canteen</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/school-uniform')?>">School Uniform</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">
@@ -248,11 +248,6 @@
                 </div>
 			</div>
 		</li>
-
-		<!-- <li class="dropdown mega-dropdown ">
-		    <a href="testimonials.html" class="dropdown-toggle disabled" data-toggle="dropdown">Testimonial</a>
-			<i class="i_mobile_ex" data-toggle="dropdown"></i>
-		</li> -->
 
     </ul>
 

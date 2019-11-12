@@ -5,23 +5,23 @@
         <!--======= Wrapper for Slides =======-->
         <div class="carousel-inner" role="listbox">
         	<div class="item active">
-	                <img src="images/banner/Saigon_Star_International_School.jpg" class="img-responsive">
+	                <img src="{{asset('images/banner/Saigon_Star_International_School.jpg')}}" class="img-responsive">
 	                <div class="carousel-caption " data-animation="animated fadeInLeft">
 						<h3>
 							<p style="text-align: center;">
 								<strong>SAIGON STAR ,<br /> INTERNATIONAL SCHOOL.</strong>
 							</p>
 						</h3>
-						    <p><a class="slide_bt text-uppercase" id="visiteis" href="saigon.html">Visit US</a> </p>
+						    <p><a class="slide_bt text-uppercase" id="visiteis" href="{{URL::to('/')}}">Visit US</a> </p>
 					</div>
 	        </div>
         	<div class="item ">
-	                <img src="images/banner/Here_We_Go_Sun_Bears.jpg" class="img-responsive">
+	                <img src="{{asset('images/banner/Here_We_Go_Sun_Bears.jpg')}}" class="img-responsive">
 	                <div class="carousel-caption " data-animation="animated fadeInLeft">
 					    <h3><p style="text-align: center;">
 					    	<strong>SAIGON STAR,<br />INTERNATIONAL SCHOOL.</strong></p>
 					    </h3>
-					    <p><a class="slide_bt text-uppercase" id="visiteis" href="saigon.html">Visit US</a></p>
+					    <p><a class="slide_bt text-uppercase" id="visiteis" href="{{URL::to('/')}}" >Visit US</a></p>
 					</div>
 	        </div>
         			            <!--========= First Slide =========-->

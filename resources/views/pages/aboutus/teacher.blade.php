@@ -16,7 +16,7 @@
 	        		<div class="item ">
 		                <img src="{{asset('images/banner/Mid_Autumn_Festival_04.jpg')}}" class="img-responsive">
 		            </div>
-    </div>
+            </div>
 	<!-- breadcrumb -->
 	<div class="site-breadcrumb breadcrumb_w">
 		<div class="w_1280">
