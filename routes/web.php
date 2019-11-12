@@ -46,6 +46,22 @@
 Route::get('/', function () {
     return view('pages.home');
 });
+Route::get('/aboutus', function () {
+    return view('pages.aboutus.welcome');
+});
+Route::get('/aboutus/ourmission', function () {
+    return view('pages.aboutus.ourmission');
+});
+Route::get('/aboutus', function () {
+    return view('pages.aboutus.ourhistory');
+});
+Route::get('/aboutus', function () {
+    return view('pages.aboutus.aboutus');
+});
+Route::get('/aboutus', function () {
+    return view('pages.aboutus.welcome');
+});
+
 Route::get('aboutus/{menu_item}', function ($menu_item) {
     if ($menu_item === 'welcome') {
         return view('pages.aboutus.welcome');

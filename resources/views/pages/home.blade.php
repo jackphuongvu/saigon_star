@@ -2,7 +2,8 @@
 @section('content')
 {{--<link rel="stylesheet" href="{{asset('css/jquery.fancybox.min.css')}}">--}}
 {{--<script type="text/javascript" src="{{asset('js/jquery.fancybox.min.js')}}"></script>--}}
-
+{{-- this is container banner --}}
+@include('inc.banner')
 <div class="clr"></div>
 <div class="full left bg_home_box_1 bg_home_box_1_n">
 	<div class="w_1280 bg_home_box_1_in">
@@ -10,7 +11,6 @@
 			<div class="hvr-bob top"><a href="school-galleries.html"><img src="images/home_icon_1.png"></a></div>
 			<div class="title"><a href="school-galleries.html" class="">Gallery</a></div>
 		</div>
-
 		<div class="box_1_item">
 				<div class="hvr-bob top"><a class="various fancybox.iframe" href="https://www.youtube.com/watch?v=piu5uAcqI7U">
 					<img src="images/home_icon_2.png"></a>
@@ -22,12 +22,10 @@
 			<div class="hvr-bob top"><a href="contact-us.html"><img src="images/home_icon_3.png"></a></div>
 			<div class="title"><a href="contact-us.html" class="">Contact Us</a></div>
 		</div>
-
 		<div class="box_1_item last">
 			<div class="hvr-bob top"><a href="booktour.html"><img src="images/home_icon_4.png"></a></div>
 			<div class="title"><a href="booktour.html" class="">SCHOOL TOUR</a></div>
 		</div>
-
 	</div>
 </div>
 

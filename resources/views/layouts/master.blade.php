@@ -78,7 +78,6 @@
 <body>
 <div id="menu_scroll" class="">
 	{{-- Gọi code trang header --}}
-
 	@include('inc.header')
 	<div class="clr"></div>
 
@@ -106,8 +105,6 @@
 
 	});
 </script>
-{{-- this is container banner --}}
-@include('inc.banner')
 <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
 {{-- this is container content --}}

@@ -20,20 +20,20 @@
                 <div class="w_1280">
                 	<div class="col-md-3">
                 		<ul id="menutop_sub_1">
-                			<li class=""><a href="/aboutus/welcome">A Welcome from the Head of School</a></li>
-							<li class=""><a href="/aboutus/ourmission">Our Vision,Mission & Values</a></li>
-                			<li class=""><a href="/aboutus/ourhistory">Our History </a></li>
-                			<li class=""><a href="/aboutus/aboutus">Do you Know ? </a></li>
+							<li class=""><a href="<?php echo url('/aboutus/welcome') ?>">A Welcome from the Head of School</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/ourmission') ?>">Our Vision,Mission & Values</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/ourhistory') ?>">Our History </a></li>
+							<li class=""><a href="<?php echo url('/aboutus/aboutus') ?>">Do you Know ? </a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Our People</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="/aboutus/leadershipTeam">Leadership Team</a></li>
-							<li class=""><a href="/aboutus/">Teacher(filtered by phase)</a></li>
-							<li class=""><a href="/aboutus/student">Student Council</a></li>
-							<li class=""><a href="/aboutus/administrationTeam">Administration Team</a></li>
-							<li class=""><a href="/aboutus/criticalfriends">Critical Friends</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/leadershipTeam')?>">Leadership Team</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/teacher')?>">Teacher(filtered by phase)</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/student')?>">Student Council</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/administrationTeam')?>">Administration Team</a></li>
+							<li class=""><a href="<?php echo url('/aboutus/criticalfriends')?>">Critical Friends</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">

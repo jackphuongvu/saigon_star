@@ -372,14 +372,6 @@ padding-right: 70px;
         padding-left: 20px;
         padding-right: 20px;
     }
-    .menutop_wrap {
-        border: 0px;
-        background: #4dc3cf;
-        height: 63px;
-        margin: 0px;
-        border-radius: 0px;
-        border-bottom: 1px solid #4dc3cf;
-    }
     #menu_parent {
         width: 113px;
         height: 62px;
@@ -1141,8 +1133,11 @@ padding-right: 70px;
         width: 100%;
     }
 
-    .page_detail_in h1 {
+    .page_detail_in h2 {
         text-align: center;
+        color: #008080;
+        font-size: 32px;
+        margin-bottom: 30px;
     }
 
     #content_contact .contact_left {

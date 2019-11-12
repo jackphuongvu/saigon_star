@@ -1,11 +1,11 @@
 @extends('layouts.master')
-<div class="clr"></div>
+@section('content')
 <div class="full left subpage_content pgacademic page_detail">
 	<div class="w_1280">
 		<div class="page_detail_in">
-				<h1>A Welcome from the Head of School</h1>
+				<h2>A Welcome from the Head of School</h2>
 			    <p><span style="color: #000000;">
-                        <img style="float: left; margin: 0px 20px 0px 0px;" src="{{asset('images/teacher/james.jpg');}}" width="200" height="300" class="img-responsive"> 
+                        <img style="float: left; margin: 0px 20px 0px 0px;" src="{{asset('images/teacher/james.jpg')}}" width="200" height="300" class="img-responsive"> 
                          Mr.JAMES please help me write something.</span>
                 </p>
                 <p><span style="color: #000000;">Our core belief at Saigon Star is that education should help children to develop a balance of academic achievement and personal qualities, that will support them as life-long learners and enable them to contribute in meaningful ways to our rapidly-changing, global society.</span></p>
@@ -14,5 +14,5 @@
 		</div>
 	</div>
 </div>
-include()
+@endsection
 
