@@ -39,8 +39,8 @@
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="About Us"> /&gt;
-                			</div>
+								<img src="{{asset('images/img_menublock.png')}}" alt="About Us">
+							</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">
                 			<h3>About Us</h3>
@@ -74,7 +74,7 @@
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="Accademic"> /&gt;
+                				<img src="{{asset('images/img_menublock.png')}}" alt="Accademic">
                 			</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">
@@ -114,7 +114,7 @@
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="Community"> /&gt;
+                				<img src="{{asset('images/img_menublock.png')}}" alt="Community">
                 			</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">
@@ -131,38 +131,38 @@
 		<!-- School Life  -->
 
 		<li class="dropdown mega-dropdown ">
-		    <a href="#" class="dropdown-toggle disabled" data-toggle="dropdown">School Life</a>
+		    <a href="<?php echo url('/schoollife/sports')?>" class="dropdown-toggle disabled" data-toggle="dropdown">School Life</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-3">
                 		<ul id="menutop_sub_1" class="m_schoollife">
-                			<li class=""><a href="/schoollife/sports">School Events & Celebrations</a></li>
-							<li class=""><a href="/schoollife/sports">Our Facilities(Library, Sports, Swimming, Music, Dance, Science)</a></li>
-							<li class=""><a href="/schoollife/art-design-music">School Catering?</a></li>
-							<li class=""><a href="/schoollife/performing-arts">Global Citizenship</a></li>
+                			<li class=""><a  href="<?php echo url('/schoollife/sports')?>" >School Events & Celebrations</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/sports')?>">Our Facilities(Library, Sports, Swimming, Music, Dance, Science)</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/art-design-music')?>">School Catering?</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/performing-arts')?>">Global Citizenship</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Learning Support</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="/schoollife/after-school-activities">Extra Curricular Activities</a></li>
-							<li class=""><a href="/schoollife/week-without-walls">Week without walls</a></li>
-							<li class=""><a href="/schoollife/week-without-walls">Summer School</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/after-school-activities')?>">Aptitude & Attitude Tests</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/week-without-walls')?>">Learning Support Programme</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/week-without-walls')?>">EAL Support</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Beyond the Classroom</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="/schoollife/after-school-activities">Extra Curricular Activities</a></li>
-							<li class=""><a href="/schoollife/week-without-walls">Week without walls</a></li>
-							<li class=""><a href="/schoollife/week-without-walls">Summer School</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/after-school-activities')?>">Extra Curricular Activities</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/week-without-walls')?>">Week without walls</a></li>
+							<li class=""><a href="<?php echo url('/schoollife/week-without-walls')?>">Summer School</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="School Life"> /&gt;
+                				<img src="{{asset('images/img_menublock.png')}}" alt="School Life">
                 			</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">
@@ -196,7 +196,7 @@
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="Admission"> /&gt;
+                				<img src="{{asset('images/img_menublock.png')}}" alt="Admission">
                 			</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">
@@ -235,7 +235,7 @@
                 	<div class="col-md-7">
                 		<div class="col-md-4 menutop_block_left">
                 			<div class="image">
-                				<img src="images/img_menublock.png" alt="Contact Us"> /&gt;
+                				<img src="{{asset('images/img_menublock.png')}}" alt="Contact Us">
                 			</div>
                 		</div>
                 		<div class="col-md-8 menutop_block_right">

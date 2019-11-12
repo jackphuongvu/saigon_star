@@ -47,18 +47,18 @@
 
           <div class="footer_r_bottom">
              <div class="footer_logo hidden_mobile">
-                <a href="#"><img src="images/logo_1.png" style="max-height: 76px;" alt=""></a>
-                <a href="#"><img src="images/ib-world-school-logo-1-colour.png" style="max-height: 76px;" alt="PTC Member School"></a>
-                <a href="#"><img src="images/ib-world-school-continuum1.png" style="max-height: 76px;" alt="IB World School Continuum"></a>
-                <a href="#"><img src="images/logo_footer_cisn.png" style="max-height: 76px;" alt="IB World School"></a>
+                <a href="#"><img src="{{asset('images/logo_1.png')}}" style="max-height: 76px;" alt=""></a>
+                <a href="#"><img src="{{asset('images/ib-world-school-logo-1-colour.png')}}" style="max-height: 76px;" alt="PTC Member School"></a>
+                <a href="#"><img src="{{asset('images/ib-world-school-continuum1.png')}}" style="max-height: 76px;" alt="IB World School Continuum"></a>
+                <a href="#"><img src="{{asset('images/logo_footer_cisn.png')}}" style="max-height: 76px;" alt="IB World School"></a>
              </div>
               <div class="footer_logo hidden_desk">
                 <div class="footer_logo_1">
-                <a href="#"><img src="images/logo_1.png" alt=""></a>
-                <a href="#"><img src="images/ib-world-school-logo-1-colour.png" alt="PTC Member School"></a>
+                <a href="#"><img src="{{asset('images/logo_1.png')}}" alt=""></a>
+                <a href="#"><img src="{{asset('images/ib-world-school-logo-1-colour.png')}}" alt="PTC Member School"></a>
                 <div class="footer_logo_2">
-                <a href="#"><img src="images/ib-world-school-continuum1.png" alt="IB World School Continuum"></a>
-                <a href="#"><img src="images/logo_footer_cisn.png" alt="IB World School"></a>
+                <a href="#"><img src="{{asset('images/ib-world-school-continuum1.png')}}" alt="IB World School Continuum"></a>
+                <a href="#"><img src="{{asset('images/logo_footer_cisn.png')}}" alt="IB World School"></a>
                 </div>
                
              </div>

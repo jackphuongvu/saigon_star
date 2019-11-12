@@ -52,14 +52,20 @@ Route::get('/aboutus', function () {
 Route::get('/aboutus/ourmission', function () {
     return view('pages.aboutus.ourmission');
 });
-Route::get('/aboutus', function () {
+Route::get('/aboutus/ourhistory', function () {
     return view('pages.aboutus.ourhistory');
 });
-Route::get('/aboutus', function () {
+Route::get('/aboutus/aboutus', function () {
     return view('pages.aboutus.aboutus');
 });
-Route::get('/aboutus', function () {
-    return view('pages.aboutus.welcome');
+Route::get('/aboutus/leadershipTeam', function () {
+    return view('pages.aboutus.leadershipTeam');
+});
+Route::get('/aboutus/teacher', function () {
+    return view('pages.aboutus.teacher');
+});
+Route::get('/aboutus/student', function () {
+    return view('pages.aboutus.student');
 });
 
 Route::get('aboutus/{menu_item}', function ($menu_item) {

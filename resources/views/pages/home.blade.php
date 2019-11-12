@@ -13,7 +13,7 @@
 		</div>
 		<div class="box_1_item">
 				<div class="hvr-bob top"><a class="various fancybox.iframe" href="https://www.youtube.com/watch?v=piu5uAcqI7U">
-					<img src="images/home_icon_2.png"></a>
+					<img src="{{asset('images/home_icon_2.png')}}"></a>
 				</div>
 				<div class="title"><a class="various fancybox.iframe" href="https://www.youtube.com/watch?v=piu5uAcqI7U">OUR VIDEO</a>
 				</div>
@@ -37,7 +37,6 @@
 		<p class="box_2_des" align="center">
 			At the SAIGON STAR International School, learning and personal growth<br>continue long after the day’s lessons have ended. We aim to provide our students with<br>opportunities to develop their natural talents, build confidence, practice a healthy lifestyle<br>and expand their world view.
 		</p>
-
 	</div>
 </div>
 
@@ -51,17 +50,17 @@
 			</div>
 			<div class="box_3 bg_d6a076 w_20 bor_l">
 				<div class="content">
-					<img class="lazyOwl" src="img/Family_Community.png" alt="English National Curriculum">
+					<img class="lazyOwl"  src="{{asset('img/Family_Community.png')}}" alt="English National Curriculum">
 				</div>
 			</div>
 			<div class="box_3 bg_f5720c w_33 bor_l">
 				<div class="content">
-								<img class="lazyOwl" src="img/28_Nationalities.png" alt="English National Curriculum">
+								<img class="lazyOwl" src="{{asset('img/28_Nationalities.png')}}" alt="English National Curriculum">
 				</div>
 			</div>
 			<div class="box_3 bg_a16f48 w_25 bor_l">
 				<div class="content">
-					<img class="lazyOwl" src="img/IPC_Accredited_School.png" alt="English National Curriculum">
+					<img class="lazyOwl" src="{{asset('img/IPC_Accredited_School.png')}}" alt="English National Curriculum">
 				</div>
 			</div>
 		</div>

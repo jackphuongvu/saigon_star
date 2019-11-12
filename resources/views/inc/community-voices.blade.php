@@ -10,7 +10,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/5I7A0935.jpg" class="img-responsive" alt="Won Jae Choi (Class of 2018) review about SaiGon Star HCMC">
+                                <img src="{{asset('images/5I7A0935.jpg')}}" class="img-responsive" alt="Won Jae Choi (Class of 2018) review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -24,7 +24,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Khurram Family-Germany 200x200.jpg" class="img-responsive" alt="Khurram Family - From Germany review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Khurram Family-Germany 200x200.jpg')}}" class="img-responsive" alt="Khurram Family - From Germany review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -37,7 +37,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Kliegl.jpeg" class="img-responsive" alt="Kliegl Family – From Europe review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Kliegl.jpeg')}}" class="img-responsive" alt="Kliegl Family – From Europe review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -50,7 +50,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Fettke.jpeg" class="img-responsive" alt="Fettke Family – From Germany review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Fettke.jpeg')}}" class="img-responsive" alt="Fettke Family – From Germany review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -63,7 +63,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Zalio.jpeg" class="img-responsive" alt="Zalio Family - From Czech review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Zalio.jpeg')}}" class="img-responsive" alt="Zalio Family - From Czech review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -76,7 +76,7 @@
                     <div class="item active">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Miquel-Gazquez1.jpeg" class="img-responsive" alt="Gazquez Family – From Spain review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Miquel-Gazquez1.jpeg')}}" class="img-responsive" alt="Gazquez Family – From Spain review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -90,7 +90,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Stevensons.jpeg" class="img-responsive" alt="Stevenson Family – From Australia review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Stevensons.jpeg')}}" class="img-responsive" alt="Stevenson Family – From Australia review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
@@ -103,7 +103,7 @@
                     <div class="item">
                         <div class="tes_left">
                             <div class="image">
-                                <img src="images/Butragueno-Antolin.jpeg" class="img-responsive" alt="Butragueno Antolin Family - From Spain review about SaiGon Star HCMC">
+                                <img src="{{asset('images/Butragueno-Antolin.jpeg')}}" class="img-responsive" alt="Butragueno Antolin Family - From Spain review about SaiGon Star HCMC">
                             </div>
                         </div>
                         <div class="tes_right">
