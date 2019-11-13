@@ -1130,6 +1130,11 @@ padding-right: 70px;
 
     .footer_r_top {
         border-bottom: 0px;
+        width: 100%;
+        height: auto;
+        float: left;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e8e8e8;
     }
 
     .page_detail_in table {
@@ -1744,6 +1749,7 @@ padding-right: 70px;
 
     .menu_footer_2 li a {
         font-size: 16px;
+        text-align: center;
     }
 
     .bg_home_box_1 .w_1280 {

@@ -134,6 +134,44 @@ Route::get('/contactandservices/school-uniform', function () {
    /**
   * END  Route CONTACT AND SERVICES
   */
+
+  /**
+  * End Route Communitry
+  */
+
+   /**
+  * start Route COMMUNITY
+  */
+
+  Route::get('/community/galleries', function () {
+    return view('pages.community.galleries');
+});
+Route::get('/community/schoolcalendar', function () {
+    return view('pages.community.schoolcalendar');
+});
+Route::get('/community/documentdownloads', function () {
+    return view('pages.community.documentdownloads');
+});
+Route::get('/community/FAQ', function () {
+    return view('pages.community.FAQ');
+});
+Route::get('/community/testimonial', function () {
+    return view('pages.community.testimonial');
+});
+Route::get('/community/earlyyears', function () {
+    return view('pages.community.earlyyears');
+});
+Route::get('/community/newsprimary', function () {
+    return view('pages.community.newsprimary');
+});
+
+Route::get('/community/middleyear', function () {
+    return view('pages.community.middleyear');
+});
+
+   /**
+  * END  Route COMMUNITY
+  */
 Route::get('aboutus/{menu_item}', function ($menu_item) {
     if ($menu_item === 'welcome') {
         return view('pages.aboutus.welcome');

@@ -2,7 +2,6 @@
 @section('content')
 <div class="full left" id="banner_subpage">
 	<div id="subpage_Carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
-		
           	<div class="carousel-inner" >
                     <div class="item active">
 		                <img src="{{asset('images/banner/Mid_Autumn_Festival_01.jpg')}}" class="img-responsive">
@@ -63,8 +62,6 @@
     
             <div class="clr"></div>
     
-    
-    
             <div class="full left" id="content_contact">
     
                     <div class="contact_left">
@@ -105,13 +102,7 @@
     
                     </div>
     
-                
-    
-                    
-    
-                    <div class="contact_form contact_right">		            
-    
-                        
+                    <div class="contact_form contact_right">
     
                         <form name="frmCon" id="frmCon" method="post" action="#" style="margin:0" novalidate="novalidate" class="fv-form fv-form-bootstrap"><button type="submit" class="fv-hidden-submit" style="display: none; width: 0px; height: 0px;"></button>  
     
@@ -141,16 +132,8 @@
                             <input type="submit" name="bt_submit" class="download bt_contact" value="Submit" tabindex="6">
     
                         </form>
-    
-    
-    
-                    </div><!-- end contact_form -->           
-    
-                
-    
+                    </div><!-- end contact_form --> 
             </div>
-    
-    
     
     </div>
     

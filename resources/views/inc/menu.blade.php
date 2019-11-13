@@ -90,25 +90,25 @@
 		<!-- IB Continuum School  -->
 
 		<li class="dropdown mega-dropdown ">
-		    <a href="news-and-social-media.html" class="dropdown-toggle disabled" data-toggle="dropdown">Community</a>
+		    <a href="<?php echo url('/community/galleries')?>" class="dropdown-toggle disabled" data-toggle="dropdown">Community</a>
 			<i class="i_mobile_ex" data-toggle="dropdown"></i>
 			<div class="dropdown-menu mega-dropdown-menu" style="display: none;">
                 <div class="w_1280">
                 	<div class="col-md-3">
                 		<ul id="menutop_sub_1">
-                		<li class=""><a href="school-galleries.html">Galleries</a></li>
-                			<li class=""><a href="#">School Calendar and Events</a></li>
-                			<li class=""><a href="#">Document downloads</a></li>
-                			<li class=""><a href="#">FAQ</a></li>
-                			<li class=""><a href="testimonials.html">Testimonial</a></li>
+                		<li class=""><a href="<?php  echo url('/community/galleries')?>">Galleries</a></li>
+                			<li class=""><a href="<?php echo url('/community/schoolcalendar')?>">School Calendar and Events</a></li>
+                			<li class=""><a href="<?php echo url('/community/documentdownloads')?>">Document downloads</a></li>
+                			<li class=""><a href="<?php echo url('/community/FAQ') ?>">FAQ</a></li>
+                			<li class=""><a href="<?php echo url('/communihty/testimonial')?>">Testimonial</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Bulletin</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="#">news Early Years</a></li>
-							<li class=""><a href="#">news Primary </a></li>
-							<li class=""><a href="#">news Middle Years</a></li>
+							<li class=""><a href="<?php echo url('/community/earlyyears')?>">news Early Years</a></li>
+							<li class=""><a href="<?php echo url('/community/newsprimary')?>">news Primary </a></li>
+							<li class=""><a href="<?php echo url('/community/middleyear')?>">news Middle Years</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">
