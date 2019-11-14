@@ -4,15 +4,11 @@
 
     <ul class="nav navbar-nav" id="menutop">
         <li class="li_m_home">
-		
-
         	<a href="saigon.html" class="m_home">
         		<i class="fa fa-home" aria-hidden="true"></i>
         	</a>
         </li>
-
    		<!-- About Us -->
-
 		<li class="dropdown mega-dropdown ">
 		    <a href="<?php echo url('/aboutus/aboutus')?>" class="dropdown-toggle disabled" data-toggle="dropdown">About Us</a>
 		    <i class="i_mobile_ex" data-toggle="dropdown"></i>
@@ -221,15 +217,15 @@
                 		<ul id="menutop_sub_1">
                 			<li class=""><a href="<?php echo url('/contactandservices/contactinformation')?>">Contact Information</a></li>
                     		<li class=""><a href="<?php echo url('/contactandservices/Recruitment')?>">Recruitment/Vacancies</a></li>
-							<li class=""><a href="<?php echo url('/contactandservices/how-to-find-us')?>">How to Find Us</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/howtofindus')?>">How to Find Us</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-2">
                 		<h3 class="menutop_sub_title">Bulletin</h3>
                 		<ul id="menutop_sub_2">
-							<li class=""><a href="<?php echo url('/contactandservices/school-bus')?>">School Bus</a></li>
-							<li class=""><a href="<?php echo url('/contactandservices/school-canteen')?>">School Canteen</a></li>
-							<li class=""><a href="<?php echo url('/contactandservices/school-uniform')?>">School Uniform</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/schoolbus')?>">School Bus</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/schoolcanteen')?>">School Canteen</a></li>
+							<li class=""><a href="<?php echo url('/contactandservices/schooluniform')?>">School Uniform</a></li>
                 		</ul>
                 	</div>
                 	<div class="col-md-7">

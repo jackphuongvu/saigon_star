@@ -66,7 +66,7 @@
                             <div class="box_3_title"><h3>Our Shared Vision</h3></div>
 
                             <div class="box_3_des">
-                                <p><img style="display: block; margin-left: auto; margin-right: auto;" src="images/Vision-150x150.png" width="700" height="467"></p>
+                                <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{asset('images/Vision-150x150.png')}}" width="700" height="467"></p>
                                 <p>As one of the most family-friendly international schools in Ho Chi Minh City Vietnam, we understand that for parents, the single most important factor when choosing a school is the school's shared vision. Above all else, it is the most influential factor in determining the type of person a child will become. To be truly effective, a shared vision is one that is shared not only among teachers, but among parents and learners, so that we are all working towards the same goal. Here's ours:.</p>
                             </div>
 

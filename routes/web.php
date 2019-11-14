@@ -86,6 +86,40 @@ Route::get('/aboutus/criticalfriends', function () {
   * start Route admissions
   */
 
+Route::get('/ancurriculum/earlyear', function () {
+    return view('pages.ancurriculum.earlyear');
+});
+Route::get('/ancurriculum/primary', function () {
+    return view('pages.ancurriculum.primary');
+});
+Route::get('/ancurriculum/middleyears', function () {
+    return view('pages.ancurriculum.middleyears');
+});
+Route::get('/ancurriculum/assessment', function () {
+    return view('pages.ancurriculum.assessment');
+});
+Route::get('/ancurriculum/pathwaytouniversity', function () {
+    return view('pages.ancurriculum.pathwaytouniversity');
+});
+Route::get('/ancurriculum/teachandlearning', function () {
+    return view('pages.ancurriculum.teachandlearning');
+});
+Route::get('/ancurriculum/curriculumdownloads', function () {
+    return view('pages.ancurriculum.curriculumdownloads');
+});
+
+  /**
+  * End Route admissions
+  */
+
+
+/**
+  * End Route about us
+  */
+  /**
+  * start Route admissions
+  */
+
 Route::get('/admissions/welcometoadmissions', function () {
     return view('pages.admissions.welcometoadmissions');
 });
@@ -120,16 +154,16 @@ Route::get('/contactandservices/Recruitment', function () {
     return view('pages.contactandservices.Recruitment');
 });
 Route::get('/contactandservices/how-to-find-us', function () {
-    return view('pages.contactandservices.how-to-find-us');
+    return view('pages.contactandservices.howtofindus');
 });
-Route::get('/contactandservices/school-bus', function () {
-    return view('pages.contactandservices.school-bus');
+Route::get('/contactandservices/schoolbus', function () {
+    return view('pages.contactandservices.schoolbus');
 });
-Route::get('/contactandservices/school-canteen', function () {
-    return view('pages.contactandservices.school-canteen');
+Route::get('/contactandservices/schoolcanteen', function () {
+    return view('pages.contactandservices.schoolcanteen');
 });
-Route::get('/contactandservices/school-uniform', function () {
-    return view('pages.contactandservices.school-uniform');
+Route::get('/contactandservices/schooluniform', function () {
+    return view('pages.contactandservices.schooluniform');
 });
    /**
   * END  Route CONTACT AND SERVICES
